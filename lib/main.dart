@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ycps_society_app/views/onboarding/onboarding_page.dart';
 import 'package:ycps_society_app/views/splash/splash_pagee.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: const SplashPagee(),
+      home: OnboardingScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
